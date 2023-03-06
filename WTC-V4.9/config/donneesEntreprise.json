@@ -1,0 +1,11 @@
+{
+  "nom": "* Nom de l'entreprise *",
+  "telephone": "* Telephone de l'entreprise *",
+  "mail": "* Adresse mail de l'entreprise *",
+  "adresse": "* Adresse entreprise *",
+  "modeDePaiement": "Par virement ou chèque",
+  "banque": {
+    "bic": "ABCD1234",
+    "compteBancaire": "BE00 0000 0000 0000"
+  }
+}

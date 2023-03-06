@@ -1,0 +1,25 @@
+Possibilité d'améliorations :
+
+- créer une table d'association entre facture et prestations.
+    - csq / à faire :
+        - supprimer l'attribut "idsPrestations" de la table facture
+        - créer la table d'association facture_prestation
+        - créer les méthodes CRUD pour cette nouvelle table
+        - modifier les méthodes CRUD de la table facture
+
+- rajouter dans la classe Prestation un attribut "client" de type client
+    - csq / à faire :
+        - rajouter l'attribut
+        - modifier les "constructeurs" de la classe Prestation
+        - modifier les méthodes CRUD de la table prestations
+        - mettre à jour les parties du code pour utiliser l'objet Client à partir de l'objet Prestation
+        au lieu d'aller faire un select dans la DB à partir de l'attribut idClient
+    - il faudrait évidemment faire pareil pour les autres entités (facture, client, etc.)
+
+- mieux respecter l'architecture MVC
+
+- permettre l'archivage d'éléments en plus ou aulieu de la suppression
+    - csq / à faire :
+        - rajouter des attributs "archivé" booleen pour chaque entités
+        - rajouter une page (par entité) pour afficher les élements archivés (ex : afficherPrestationsArchivees.php,
+        afficherPrestationsClients.php)

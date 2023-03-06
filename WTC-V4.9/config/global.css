@@ -1,0 +1,77 @@
+:root {
+    --couleur1: #A0BCC2; /* couleur la plus foncée */
+    --couleur2: #DAE5D0;
+    --couleur3: #F9EBC8;
+    --couleur4: #FEFBE7; /* couleur la plus claire */
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+
+
+.navbar {
+    background-color: var(--couleur1) !important;
+    color: var(--couleur2) !important;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: var(--couleur2) !important;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: var(--couleur4) !important;
+}
+
+.dropdown-menu {
+    background-color: var(--couleur1) !important;
+}
+
+.dropdown-item {
+    color: var(--couleur2) !important;
+}
+
+.dropdown-item:hover {
+    color: var(--couleur4) !important;
+    background-color: var(--couleur1) !important;
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+
+
+html, body {
+    background-color: var(--couleur2);
+}
+
+
+/*********************************************************************/
+/*********************************************************************/
+
+
+.card {
+    background-color: var(--couleur4);
+    border-color: var(--couleur1);
+    border-width: 2px;
+}
+
+.card-title {
+    color: var(--couleur1);
+}
+
+.card-text strong {
+    color: var(--couleur1);
+}
+
+.btn {
+    background-color: var(--couleur1);
+    border-color: var(--couleur1);
+}
+
+.btn:hover {
+    background-color: var(--couleur2);
+    border-color: var(--couleur2);
+}
